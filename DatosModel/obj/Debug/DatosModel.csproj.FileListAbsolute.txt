@@ -1,0 +1,11 @@
+C:\Users\User\source\repos\ElTiempoProyecto\DatosModel\bin\Debug\DatosModel.dll.config
+C:\Users\User\source\repos\ElTiempoProyecto\DatosModel\bin\Debug\DatosModel.dll
+C:\Users\User\source\repos\ElTiempoProyecto\DatosModel\bin\Debug\DatosModel.pdb
+C:\Users\User\source\repos\ElTiempoProyecto\DatosModel\bin\Debug\EntityFramework.dll
+C:\Users\User\source\repos\ElTiempoProyecto\DatosModel\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\source\repos\ElTiempoProyecto\DatosModel\bin\Debug\EntityFramework.xml
+C:\Users\User\source\repos\ElTiempoProyecto\DatosModel\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\source\repos\ElTiempoProyecto\DatosModel\obj\Debug\DatosModel.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\ElTiempoProyecto\DatosModel\obj\Debug\DatosModel.csproj.CopyComplete
+C:\Users\User\source\repos\ElTiempoProyecto\DatosModel\obj\Debug\DatosModel.dll
+C:\Users\User\source\repos\ElTiempoProyecto\DatosModel\obj\Debug\DatosModel.pdb

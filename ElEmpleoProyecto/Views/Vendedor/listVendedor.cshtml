@@ -1,0 +1,59 @@
+﻿@model IEnumerable<ElEmpleoProyecto.Models.VendedorModel>
+
+@{
+    ViewBag.Title = "View";
+}
+
+<h2>Listado de vendedores</h2>
+
+
+<table class="table table-striped table-bordered table-hover col-md-12">
+    <tr>
+        <th>
+            Codigo
+        </th>
+        <th>
+            Nombre
+        </th>
+        <th>
+            Apellido
+        </th>
+        <th>
+            Numero identificacion
+        </th>
+        <th>
+            Codigo ciudad
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Codigo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Apellido)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NUMERO_IDENTIFICACION)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CODIGO_CIUDAD)
+            </td>
+            <td>
+                @Html.ActionLink("Editar", "modifyVendedor", new {  id=item.Codigo  }) |
+                @Html.ActionLink("Eliminar", "DeleteVendedor", new {  id=item.Codigo  })
+            </td>
+        </tr>
+    }
+
+</table>
+<br/>
+<p class="text-center">
+    @Html.ActionLink("Crear nuevo vendedor", "newVendedor", null, new { @class = "btn btn-lg btn-success" })
+</p>

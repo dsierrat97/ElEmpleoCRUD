@@ -1,0 +1,12 @@
+C:\Users\User\source\repos\ElTiempoProyecto\DatosModel\bin\Release\DatosModel.dll.config
+C:\Users\User\source\repos\ElTiempoProyecto\DatosModel\bin\Release\DatosModel.dll
+C:\Users\User\source\repos\ElTiempoProyecto\DatosModel\bin\Release\DatosModel.pdb
+C:\Users\User\source\repos\ElTiempoProyecto\DatosModel\bin\Release\EntityFramework.dll
+C:\Users\User\source\repos\ElTiempoProyecto\DatosModel\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\User\source\repos\ElTiempoProyecto\DatosModel\bin\Release\EntityFramework.xml
+C:\Users\User\source\repos\ElTiempoProyecto\DatosModel\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\User\source\repos\ElTiempoProyecto\DatosModel\obj\Release\DatosModel.csprojAssemblyReference.cache
+C:\Users\User\source\repos\ElTiempoProyecto\DatosModel\obj\Release\DatosModel.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\ElTiempoProyecto\DatosModel\obj\Release\DatosModel.csproj.CopyComplete
+C:\Users\User\source\repos\ElTiempoProyecto\DatosModel\obj\Release\DatosModel.dll
+C:\Users\User\source\repos\ElTiempoProyecto\DatosModel\obj\Release\DatosModel.pdb

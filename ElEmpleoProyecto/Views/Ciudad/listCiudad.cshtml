@@ -1,0 +1,42 @@
+﻿@model IEnumerable<ElEmpleoProyecto.Models.CiudadModel>
+
+@{
+    ViewBag.Title = "CiudadView";
+}
+
+<h2>Listado de ciudades</h2>
+
+
+<table class="table table-striped table-bordered table-hover col-md-12">
+    <tr>
+        <th>
+            Codigo
+        </th>
+        <th>
+            Descripcion
+        </th>
+        <th class="col-md-3"></th>
+    </tr>
+
+    @foreach (var item in Model)
+     {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Codigo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Descripcion)
+            </td>
+            <td>
+                @Html.ActionLink("Editar", "ModifyCiudad", new { id = item.Codigo })
+                @Html.ActionLink("Eliminar", "DeleteCiudad", new { id = item.Codigo })
+            </td>
+        </tr>
+     }
+
+</table>
+<p class="text-center">
+
+    @Html.ActionLink("Crear nueva ciudad", "newCiudad", "Ciudad", null, new { @class = "btn btn-lg btn-success" })
+
+</p>
